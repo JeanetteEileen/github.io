@@ -69,6 +69,9 @@ p{
   -webkit-appearance: none;
   -moz-appearance: none;
 }
+h2.text-center{
+  font-style: italic;
+}
 #fs-frm label,
 #fs-frm legend,
 #fs-frm ::placeholder {
@@ -77,6 +80,7 @@ p{
   padding-top: .2rem;
   display: flex;
   align-items: baseline;
+  font-style:italic;
 }
 
 /* border, padding, margin, width */
