@@ -1,0 +1,126 @@
+/* css for my test*/
+
+body{
+    background-color: rgb(36, 42, 63);
+    color: white;
+}
+.navbar{
+    background-color:#8a6d97;  
+}
+a.navbar-brand, a.nav-item.nav-link.active, a.nav-item.nav-link{
+  color: #433a4d;
+ 
+}
+.jumbotron{
+    background-color: rgb(36,42,63);
+    letter-spacing: .25em;  
+}
+.jumbo {
+  font-size: 1.2em;
+}
+
+h1.display-5 {
+  font-style: italic;
+
+}
+.goldBadge{
+    max-width: 90%;
+}
+img.portrait{
+    border-radius: 50%;     
+}
+div.card{
+  background-color:#3b3a4d;
+}
+.hrMine{
+    height: 6rem;
+    background-color:transparent;
+    border-top: 0px;
+    color:transparent;
+}h4.text-center{
+  color:#d5b6f5;
+}
+p{
+  color:#d5b6f5;
+}
+#foot {
+  letter-spacing: .25em;
+}
+/* reset */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: .5rem;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgb(208, 203, 211);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: lightgray;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+  
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border-radius: .5rem;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+  background-color: #816d97;
+  
+}
+#fs-frm select {
+  text-transform: none;
+}
