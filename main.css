@@ -18,6 +18,9 @@ a.navbar-brand, a.nav-item.nav-link.active, a.nav-item.nav-link{
 .jumbo {
   font-size: 1.2em;
 }
+h5 {
+  color:#d5b6f5;
+}
 
 h1.display-5 {
   font-style: italic;
